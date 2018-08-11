@@ -1,3 +1,9 @@
+- Abstraction - Hiding lower-level details and exposing only the essential and relevant details to the users. Abstraction is achieved through encapsulation
+- Covariant return type - you can provide the derived class of the return type in the overriding method
+- Default access modifier - (no access modifier specified) it allows to access a method if it is in the same package. The difference between default and protected access modifier is that for the default one a subclass outside the package cannot access the default elements
+- Encapsulation - describes the idea of bundling data and methods that work on that data within one unit, e.g., a class in Java. This concept is also often used to hide the internal representation, or state, of an object from the outside. Abstraction is achieved through encapsulation
+- Inheritance - hierarchical relationships between classes
+- Polymorphism - Interpreting the same message (i.e., method call) with different meanings depending on the context. There can be static (overloading) and dynamic polymorphism (overriding)
 - Single precision vs double precision - deals with 32 bit floating point numbers whereas double precission deals with 64 bit floating point numbers
 - Two's complement - the way each computer calculates the negative integer, e.g. calculate -28 from 28. The number will be written in binary, next each bit will be inverted. After that you will add one to the result
 e.g. 28 can be represented as 00011100 > after inverting the bits 11100011 > after adding one to the result 11100100
