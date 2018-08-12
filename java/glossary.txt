@@ -5,6 +5,7 @@
 - Inheritance - hierarchical relationships between classes
 - Polymorphism - Interpreting the same message (i.e., method call) with different meanings depending on the context. There can be static (overloading) and dynamic polymorphism (overriding)
 - Single precision vs double precision - deals with 32 bit floating point numbers whereas double precission deals with 64 bit floating point numbers
+- Subtyping - comes from Generics; you can assign a derived type object to its base type reference. For generic type parameters, however, subtyping does not work. You cannot assign a derived generic type parameterto a base type parameter
 - Two's complement - the way each computer calculates the negative integer, e.g. calculate -28 from 28. The number will be written in binary, next each bit will be inverted. After that you will add one to the result
 e.g. 28 can be represented as 00011100 > after inverting the bits 11100011 > after adding one to the result 11100100
 - Unsigned vs signed - unsigned used the leading bit as a part of the value, whilst the signed version uses the left most bit to identify if the number is positive or negative
